@@ -84,7 +84,7 @@ Node 20 or newer is required. The included `.nvmrc` selects Node 20 consistently
 Pushes to `main` automatically build and deploy the site through `.github/workflows/deploy-pages.yml`. The Pages build uses the repository base path and publishes `dist/` at:
 
 ```text
-https://smileshey.github.io/Philly-implementation-priority-map/
+https://ryanvirg.github.io/Philly-implementation-priority-map/
 ```
 
 Before the first deployment, open the repository-specific **Settings → Pages** page (not the Pages section of your personal account settings) and set **Build and deployment → Source** to **GitHub Actions**. Then push to `main` or run the workflow manually from the **Actions** tab. Seeing only **Add domain** means you are likely on the account-level Pages settings page.
